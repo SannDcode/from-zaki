@@ -17,7 +17,7 @@ function fmketik2(){
   wallpaper.style="transform: scale(1);";
   fthilang();ftganti=2;setTimeout(ftmuncul,200);
 }
-function mketik2() {if(ab<vketika.length){kalimata.innerHTML += vketika.charAt(ab);ab++;setTimeout(mketik2,45);}}
+function mketik2() {if(ab<vketika.length){kalimata.innerHTML += vketika.charAt(ab);ab++;setTimeout(mketik2,55);}}
   
   var ac=0,vketikb;
 function fmketik3(){
@@ -25,7 +25,7 @@ function fmketik3(){
   fthilang();ftganti=3;setTimeout(ftmuncul,200);
   kalimat.innerHTML="";kalimata.innerHTML="";
 }
-function mketik3() {if(ac<vketikb.length){kalimatb.innerHTML += vketikb.charAt(ac);ac++;setTimeout(mketik3,40);}}
+function mketik3() {if(ac<vketikb.length){kalimatb.innerHTML += vketikb.charAt(ac);ac++;setTimeout(mketik3,65);}}
 
   var ad=0,vketikc;
 function fmketik4(){
@@ -37,17 +37,17 @@ function mketik4() {if(ad<vketikc.length){kalimatc.innerHTML += vketikc.charAt(a
 
   var ae=0,vketikd;var af=0,vketikd2;
 function fmketik5(){
-  
+
 }
-function mketik5() {if(ae<vketikd.length){kalimatd.innerHTML += vketikd.charAt(ae);ae++;setTimeout(mketik5,35);} if(ae==vketikd.length){setTimeout(befmketik5b,400)}}
+function mketik5() {if(ae<vketikd.length){kalimatd.innerHTML += vketikd.charAt(ae);ae++;setTimeout(mketik5,70);} if(ae==vketikd.length){setTimeout(befmketik5b,400)}}
   
 function befmketik5b() {
   wallpaper.style="transform: scale(1.5);";
   fthilang();
   ftganti=5;setTimeout(ftmuncul,200);
-  kalimatd.innerHTML="";setTimeout(mketik5b,200);
+  kalimatd.innerHTML="";setTimeout(mketik5b,100);
 }
-function mketik5b() {if(af<vketikd2.length){kalimatd.innerHTML += vketikd2.charAt(af);af++;setTimeout(mketik5b,35);} if(af==vketikd2.length){tombol()}}
+function mketik5b() {if(af<vketikd2.length){kalimatd.innerHTML += vketikd2.charAt(af);af++;setTimeout(mketik5b,100);} if(af==vketikd2.length){tombol()}}
 
   function dilanjut(){wallpaper.style="transform: scale(1.5);";setTimeout(otomatis2,300);fthilang();ftganti=10;setTimeout(ftmuncul,300);Tombol.style="opacity:0;transform: scale(.1);";jikatom=1;setTimeout(tombol,1000);}
   
